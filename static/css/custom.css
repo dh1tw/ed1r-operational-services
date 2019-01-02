@@ -10,6 +10,10 @@
     border-width: 2px;
 }
 
+.jumbotron {
+    padding: 4rem 2rem;
+}
+
 .title {
     font-size: 48px;
     font-weight: bold;
