@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>ED1R Operational Services</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="static/css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <ul class="navbar-nav ml-auto">
+        <li id="not-logged-in" class="nav-item">
+            <a id="login-btn" class="btn ml-auto text-right btn-success my-2 my-sm-0" href="https://auth.ed1r.ddns.net/login/google?backTo=https://ed1r.ddns.net">Login</a>
+        </li>
+        <li id="logged-in" class="nav-item d-none">
+            <img id="user-picture" class="ml-auto text-right my-2 my-sm-0">
+            <a id="user-name" class="btn ml-auto text-right my-2 my-sm-0"></a>
+            <a id="login-btn" class="btn ml-auto text-right btn-success my-2 my-sm-0" href="https://auth.ed1r.ddns.net/login?logout=true&backTo=https://ed1r.ddns.net">Logout</a>
+        </li>
+        </ul>
+    </nav>
+
+    <main role="main">
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <div class="col-12">
+                    <p class="title">ED1R</p>
+                    <p class="subtitle">Operational Services</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                            <a href="https://sites.google.com/view/ed1r-wiki/start">
+                            <div class="icon">
+                                <i class="fab fa-wikipedia-w fa-3x"></i>
+                            </div>
+                            <h2>Wiki</h2>
+                            <p>Documentación de la estacion</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="https://drive.google.com/drive/folders/13rZcjrx-pFu5jEuGPNPrkzfWHXo5AQpk">
+                        <div class="icon">
+                            <i class="fab fa-google-drive fa-3x"></i>
+                        </div>
+                        <h2>Google Drive</h2>
+                        <p>Ficheros y carpetas compartidas</p>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="card">
+                        <a href="https://bandwidth.ed1r.ddns.net">
+                        <div class="icon">
+                            <i class="fas fa-chart-bar fa-3x"></i>
+                        </div>
+                        <h2>Bandwidth</h2>
+                        <p>Estatisticas sobre el consumo de ancho de banda de la linea ADSL</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="https://rotators.ed1r.ddns.net">
+                        <div class="icon">
+                            <i class="far fa-compass fa-3x"></i>
+                        </div>
+                        <h2>Rotores</h2>
+                        <p>Interfaz web de nuestros rotores</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="https://switches.ed1r.ddns.net">
+                        <div class="icon">
+                            <i class="fas fa-arrows-alt fa-3x"></i>
+                        </div>
+                        <h2>Switches</h2>
+                        <p>Interfaz web de nuestros Conmutadores (Bandswitch, Stackmatches, Power)</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fas fa-headphones fa-3x"></i>
+                        </div>
+                        <h2>SDR</h2>
+                        <p>La dirección del SDR spy server es <i>sdr://ed1r.ddns.net:5555</i></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="https://adsb.ed1r.ddns.net">
+                        <div class="icon">
+                            <i class="fas fa-plane fa-3x"></i>
+                        </div>
+                        <h2>ADSB</h2>
+                        <p>Receptor ADSB para observar aviones en 1090MHz</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /container -->
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/static/js/jwt-decode.min.js"></script>
+    <script src="/static/js/profile.js"></script>
+</body>
+
+</html>
