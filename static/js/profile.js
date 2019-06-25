@@ -19,20 +19,14 @@ var token = jwt_decode(tokenString);
 
 var loggedIn = document.getElementById("logged-in");
 var notLoggedIn = document.getElementById("not-logged-in");
-var userName = document.getElementById("user-name");
+var userEmail = document.getElementById("user-email");
 var userPicture = document.getElementById("user-picture");
 var loginBtn = document.getElementById("login-btn");
 
 // depending if we have a jwt token, we will display the name and the
 // picture of the user
 if (Object.keys(token).length > 0) {
-    var name = token["name"];
-    var names = name.split(" ");
-    if (names.length > 0){
-        userName.text = names[0];
-    } else {
-        userName.text = name;
-    }
+    userEmail.text = token["email"];
     if (token["picture"] != undefined){
       userPicture.src = token["picture"];
     }
