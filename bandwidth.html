@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>ED1R Bandwidth Usage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="static/css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <ul class="navbar-nav ml-auto">
+            <li id="not-logged-in" class="nav-item">
+                <a id="login-btn" class="btn ml-auto text-right btn-success my-2 my-sm-0"
+                    href="https://auth.ed1r.ddns.net/login/google?backTo=https://ed1r.ddns.net">Login</a>
+            </li>
+            <li id="logged-in" class="nav-item d-none">
+                <img id="user-picture" class="ml-auto text-right my-2 my-sm-0">
+                <a id="user-name" class="btn ml-auto text-right my-2 my-sm-0"></a>
+                <a id="login-btn" class="btn ml-auto text-right btn-success my-2 my-sm-0"
+                    href="https://auth.ed1r.ddns.net/login?logout=true&backTo=https://ed1r.ddns.net">Logout</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main role="main">
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <div class="col-12">
+                    <p class="title">ED1R</p>
+                    <p class="subtitle">Operational Services</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <!-- Wlan -->
+                <div class="col-lg-6 col-md-12">
+                    <h2>ADSL Consumo</h2>
+                    <a href="https://adsl.ed1r.ddns.net"><p>Estatisticas detalladas</p></a>
+                    <div class="col-xs-12">
+                        <h4>Diario</h4>
+                        <div class="">
+                            <img src="http://adsl.ed1r.ddns.net/daily.gif" alt="Daily Graph">
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <h4>Semanal</h4>
+                        <div class="">
+                            <img src="http://adsl.ed1r.ddns.net/weekly.gif" alt="Weekly Graph">
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <h4>Mensual</h4>
+                        <div class="">
+                            <img src="http://adsl.ed1r.ddns.net/monthly.gif" alt="Monthly Graph">
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <h4>Anual</h4>
+                        <div class="">
+                            <img src="http://adsl.ed1r.ddns.net/yearly.gif" alt="Yearly Graph">
+                        </div>
+                    </div>
+                </div>
+                <!-- /Wlan-->
+                <!-- LTE/4G -->
+                <div class="col-lg-6 col-md-12">
+                    <h2>4G Consumo</h2>
+                    <a href="https://lte.ed1r.ddns.net"><p>Estatisticas detalladas</p></a>
+                    <div class="col-xs-12">
+                        <h4>Diario</h4>
+                        <div class="">
+                            <img src="http://lte.ed1r.ddns.net/daily.gif" alt="Daily Graph">
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <h4>Semanal</h4>
+                        <div class="">
+                            <img src="http://lte.ed1r.ddns.net/weekly.gif" alt="Weekly Graph">
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <h4>Mensual</h4>
+                        <div class="">
+                            <img src="http://lte.ed1r.ddns.net/monthly.gif" alt="Monthly Graph">
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <h4>Anual</h4>
+                        <div class="">
+                            <img src="http://lte.ed1r.ddns.net/yearly.gif" alt="Yearly Graph">
+                        </div>
+                    </div>
+                </div>
+                <!-- /LTE-4G-->
+
+            </div> <!-- /container -->
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/static/js/jwt-decode.min.js"></script>
+    <script src="/static/js/profile.js"></script>
+</body>
+
+</html>
