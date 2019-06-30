@@ -12,6 +12,8 @@
 
 .jumbotron {
     padding: 4rem 2rem;
+    background-color: #dc3545;
+    color: white;
 }
 
 .title {
